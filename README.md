@@ -8,7 +8,7 @@ In main.cpp, you can decide
 
 To run the simulation, you can run cmd in window, go to the directory folder and type mingw32-make. It will generate an exe, named "main.exe".
 
-By running "main.exe", 8 txt files will be generated, which are
+By running "main.exe", 9 txt files will be generated, which are
     -
 
 sprintf(filename_2,"E=%.2fI=%.2fP=%.2f_spike_%d_0_%.2f.txt",x,y,link_density,count,yy);
