@@ -1,5 +1,5 @@
 # feedforward-inhibitory-plasticity
-C++ code for the paper "Rational designing of oscillatory rhythmicity for memory rescue in plasticity-impaired learning networks". You need a gnu complier, and RandNum.h and run.h provided whitin this repository to run the program.
+C++ code for the paper "Rational designing of oscillatory rhythmicity for memory rescue in plasticity-impaired learning networks". You need a gnu complier, and RandNum.h (from http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) and run.h provided whitin this repository to run the program.
 
 The model circuit is composed of two layers (L1, L2), each with 2000 excitatory neurons and 400 inhibitory neurons, and probability 0.2, the neurons were randomly connected within each layer L1 and L2, and from L1 excitatory neurons to both L2 excitatory neurons and feedforward inhibitory neurons (FF Inh, 200 neurons) in L2. In L2, the FF Inh neurons were also uni-directionally connected to the recurrent inhibitory (Re Inh, 200 neurons) neurons in L2.
 The neurons are labelled as:
