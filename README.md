@@ -13,7 +13,7 @@ The neurons are labelled as:
 and each layer is a model of learning circuit. The model used in this work is composed of conductance-based integrate-and-fire neurons, short-term depression and long-term plasticity, and the parameters used are biologically plausible, justified in previous works (Brunel and Wang, 2003; Dayan and Abbott, 2005; Hempel et al., 2000; Markram et al., 1998; Mongillo et al., 2008; Pfister and Gerstner, 2006). In particular, each layer has 2000 excitatory neurons, and 400 inhibitory neurons, n_I. Each neuron in L1 and L2 received background input from 400 independent Poisson trains. L1 neurons received extra theta input periodically. For more details, Please refer to the method of the paper.
 
 In main.cpp, you can decide 
-- the recording time period of synaptic current, t_record. 
+- the time interval between two recordings, t_record. 
 - Able/disable feedforward E->I plasticity, LTP.
 - the theta, and gamma frequency and number of pulses applied within one theta period during rescue when feedforward E->I plasticity is not disabled, theta, gamma, pulse_number. 
 - the numbering of the simulation, count
