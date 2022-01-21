@@ -8,7 +8,7 @@ The neurons are labelled as:
 * 2400-2799 unused; 
 * 2800-4799 L2 excitatory neurons; 
 * 4800-4999 L2 Re inh neurons; 
-* 5000-5199 FF inh neurons.
+* 5000-5199 L2 FF inh neurons.
 
 and each layer is a model of learning circuit. The model used in this work is composed of conductance-based integrate-and-fire neurons, short-term depression and long-term plasticity, and the parameters used are biologically plausible, justified in previous works (Brunel and Wang, 2003; Dayan and Abbott, 2005; Hempel et al., 2000; Markram et al., 1998; Mongillo et al., 2008; Pfister and Gerstner, 2006). In particular, each layer has 2000 excitatory neurons, and 400 inhibitory neurons, n_I. Each neuron in L1 and L2 received background input from 400 independent Poisson trains. L1 neurons received extra theta input periodically. For more details, Please refer to the method of the paper.
 
