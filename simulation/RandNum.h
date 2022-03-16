@@ -64,7 +64,7 @@
 double PI=2.0*asin(1.0);
 
 
-//高精度随机数产生器
+//赂脽戮芦露脠脣忙禄煤脢媒虏煤脡煤脝梅
 class CRandNum
 {
 private:
